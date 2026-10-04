@@ -1,0 +1,15 @@
+name: elshazly-unicharm_qc_app
+description: Smart QC Vision App
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+9
+  google_generative_ai: ^0.4.0
+
+flutter:
+  uses-material-design: true
